@@ -19,19 +19,22 @@ This project aims to develop an end-to-end Potato Blight Image Classifier to hel
     - Augment the dataset to improve model robustness.
 
 3. **Model Development**
-    - Choose an appropriate machine learning model (e.g., Convolutional Neural Network).
+    - Choose an appropriate machine learning model(CNN).This model will be build using TF.
     - Train the model using the preprocessed dataset.
+    - Model will be optimized with quantization and TF-Lite.
     - Evaluate the model's performance and fine-tune as necessary.
 
 4. **Interface Development**
     - Develop a web or mobile application for farmers to upload images.
+    - This will be built using the React Framework!
     - Integrate the trained model into the application to provide real-time classification.
 
 5. **Recommendation System**
     - Based on the classification results, provide tailored recommendations to farmers.
+    - The back end will be built using TF serving and Fast API.
     - Include information on treatment options and preventive measures.
 
-## Impact
+## Potential Impact
 By providing an accessible tool for early detection of potato blight, this project aims to:
 - Reduce crop losses due to blight.
 - Improve the livelihoods of farmers in East Africa.
